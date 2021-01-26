@@ -10,6 +10,7 @@
 * [Update](#update)
 * [Merge](#merge)
 * [Conflict](#conflict)
+* [Important Commands](#important-commands)
 
 ## Git Commands
 ![](./screenshot/git_basic_commands.png)
@@ -82,3 +83,28 @@ Simply send me request to merge on github, then i'll process it
 ## Conflict 
 
 Please check out conflicts and update every single of them by choosing "Use me" or "Use both" or simply leave it there and contact me to solve it
+
+## Important Commands
+
+```
+$ git status ( always use to check whenever we see "red tick check" to know which file we need to update )
+$ git log --oneline --all --graph ( to have a general view of each commit we send )
+
+$ git push origin ( to upload local work to gitHub )
+$ git fetch/pull origin ( to update current local work to get the latest project from gitHub )
+
+$ git branch "name of branch" ( to create new branch )
+$ git branch -d "name of branch" ( to delete a branch )
+$ git checkout "name of branch" ( to move to a branch )
+$ git merge "name of branch"
+```
+
+## Note
+
+#### Please apply "commit syntax" to have a general format throughout the project.
+#### Please feel free to update anything new for README.md
+#### Please create new branch for anything new or important, working on that branch and merge to clone before pushing local clone to gitHub
+
+### Personal Message
+
+#### I'm not a master of gitHub and i'm on the way to learn more how to use Git so not everything can be solved from me as well as not everything is ideal to work in my way. Therefore, please feel free to give me your opinions and suggestions to improve our project.
