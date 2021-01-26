@@ -101,10 +101,10 @@ $ git merge "name of branch"
 
 ## Note
 
-#### Please apply "commit syntax" to have a general format throughout the project.
-#### Please feel free to update anything new for README.md
-#### Please create new branch for anything new or important, working on that branch and merge to clone before pushing local clone to gitHub
+* Please apply "commit syntax" to have a general format throughout the project.
+* Please feel free to update anything new for README.md
+* Please create new branch for anything new or important, working on that branch and merge to clone before pushing local clone to gitHub
 
-### Personal Message
+## Personal Message
 
-#### I'm not a master of gitHub and i'm on the way to learn more how to use Git so not everything can be solved from me as well as not everything is ideal to work in my way. Therefore, please feel free to give me your opinions and suggestions to improve our project.
+ I'm not a master of gitHub and i'm on the way to learn more how to use Git so not everything can be solved from me as well as not everything is ideal to work in my way. Therefore, please feel free to give me your opinions and suggestions to improve our project.
