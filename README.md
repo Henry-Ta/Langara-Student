@@ -107,6 +107,7 @@ $ git merge "name of branch"
 * Please apply "commit syntax" to have a general format throughout the project.
 * Please feel free to update anything new for README.md
 * Please create new branch for anything new or important, working on that branch and merge to clone before pushing local clone to gitHub
+* Please keep tracking master branch, frequently push small modification is better than many changes at once
 
 ## Personal Message
 
