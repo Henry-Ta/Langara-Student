@@ -39,7 +39,7 @@ $ cd Langara_Student
 and then "git clone" the "fork" version to your computer
 
 ```
-$ git clone https://github.com/Henry-Ta/Langara_Student
+$ git clone "folk version link"
 $ cd Langara_Student
 ```
 
@@ -88,7 +88,10 @@ Please check out conflicts and update every single of them by choosing "Use me" 
 
 ```
 $ git status ( always use to check whenever we see "red tick check" to know which file we need to update )
-$ git log --oneline --all --graph ( to have a general view of each commit we send )
+$ git log --oneline --all --graph ( to have a general view of each commit we send, press q to exit)
+
+$ git add .
+$ git commit ( or git commit -m if you don't want to edit in nano )
 
 $ git push origin ( to upload local work to gitHub )
 $ git fetch/pull origin ( to update current local work to get the latest project from gitHub )
