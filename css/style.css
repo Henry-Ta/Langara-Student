@@ -1,10 +1,170 @@
-/* ROOT variable */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-/*  */
+/* --------- ROOT variable --------- */
+:root {
+  --color-primary-light: #fbdd9d;
+  --color-primary: #e9bf59;
+  --color-primary-dark: #e8b12d;
+
+  --color-grey-light-1: #ccc;
+
+  --color-grey-dark-1: #333;
+  --color-grey-dark-2: #777;
+  --color-grey-dark-3: #999;
+
+  --color-brown-light: #d9993f;
+  --color-brown: #925f17;
+  --color-green: #4f4e28;
+}
+
+/* --------- Setup --------- */
 * {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
   box-sizing: inherit;
 }
 
-body {
+/* 1rem = 10px, 10px/16px = 62.5% */
+html {
   box-sizing: border-box;
+
+  font-size: 62.5%;
+  color: var(--color-grey-dark-1);
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--color-primary);
+
+  min-height: 100vh;
+}
+
+a:link,
+a:visited {
+  font-size: 1.4rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: block;
+  cursor: pointer;
+  color: var(--color-brown);
+}
+
+li {
+  list-style: none;
+}
+
+.heading-primary {
+  font-size: 5rem;
+}
+
+.heading-secondary {
+  font-size: 3.5rem;
+}
+
+/* --------- SVG Icons --------- */
+.navigation__icon {
+  height: 5rem;
+  width: 5rem;
+  fill: var(--color-brown);
+}
+
+/* --------- Header --------- */
+.header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+.main-header {
+  position: relative;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  margin-left: 15rem;
+  margin-right: 2rem;
+  letter-spacing: 3rem;
+  text-transform: uppercase;
+}
+
+.main-header::after {
+  content: 'LANGARA';
+  position: absolute;
+  top: 3px;
+  left: 5px;
+  opacity: 0.3;
+}
+
+/* --------- NAVIGATION --------- */
+.navigation__nav {
+  background-color: var(--color-brown-light);
+  box-shadow: 0.3rem 0.3rem 1rem var(--color-brown);
+  height: 80%;
+  margin: 2rem;
+  padding: 10rem;
+  border-radius: 3rem;
+  flex: 0 0 50%;
+
+  display: flex;
+  align-items: center;
+}
+
+.navigation__item {
+  display: flex;
+  align-items: baseline;
+}
+
+.navigation__dropdown-content {
+  /* display: none; */
+}
+
+.navigation__dropdown-content .navigation__link {
+  margin-bottom: 1rem;
+  padding: 2rem;
+  font-size: 2.5rem;
+}
+
+.navigation__dropdown a:link,
+.navigation__dropdown a:visited {
+  letter-spacing: 0.6rem;
+  font-size: 3rem;
+  padding: 1rem;
+  margin: 1rem;
+  display: inline-flex;
+  align-items: center;
+}
+
+.navigation__dropdown a:hover {
+  background-color: var(--color-primary-light);
+  transform: all 0.5s;
+}
+
+.navigation__dropdown:hover .navigation__dropdown-content {
+  width: 10%;
+  display: block;
+}
+
+/* --------- Section Important Dates ---------  */
+.section-event {
+  background-color: var(--color-brown-light);
+  box-shadow: 0.3rem 0.3rem 1rem var(--color-brown);
+  flex: 0 0 25%;
+  height: 80%;
+  margin: 2rem;
+  margin-left: 0;
+  padding: 10rem 2rem;
+  border-radius: 3rem;
+  text-align: center;
+}
+
+.section-event .heading-secondary {
+  padding: 0;
+  padding-bottom: 10px;
+
+  font-size: 3rem;
+  border-bottom: 2px solid var(--color-brown);
 }
