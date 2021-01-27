@@ -87,7 +87,7 @@ Please check out conflicts and update every single of them by choosing "Use me" 
 ## Important Commands
 
 ```
-$ git fetch origin ( to update with the latest official version ) 
+$ git fetch origin ( to update with the latest official version ) | or $ git pull origin ( depends on what gitHub access )
 $ git status ( always use to check whenever we see "red tick check" to know which file we need to update )
 $ git log --oneline --all --graph ( to have a general view of each commit we send, press q to exit)
 
